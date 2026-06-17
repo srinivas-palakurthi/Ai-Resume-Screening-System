@@ -1,27 +1,48 @@
-ATS Resume Screening System
-AI-powered ATS Resume Screening System that ranks candidates using NLP, Sentence Transformers, and Skill Matching.
+🚀 AI Resume Analyzer
+AI-powered resume analyzer that evaluates ATS score, skill match, resume quality, and provides personalized career recommendations.
 
 Features
-- Resume Ranking
-- ATS Score
-- Skill Gap Analysis
-- Candidate Comparison
-- Experience Detection
-- Education Detection
-- Download Results CSV
+- ATS Score Analysis
+- Resume Quality Assessment
+- Skill Gap Detection
+- Missing Skills Identification
+- Career Recommendations
+- Learning Roadmap
+- Interactive Charts
+- Resume vs Job Description Matching
 
 Tech Stack
 - Python
-- NLP
 - Streamlit
+- Plotly
+- NLP
 - Sentence Transformers
 - Scikit-Learn
 - Pandas
+- PyPDF
 
 Installation
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+```
+
+Folder Structure
+```text
+AIResume-Analyzer
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── src
+│   ├── parser.py
+│   ├── embedding.py
+│   ├── ats.py
+│   ├── skills.py
+│   ├── quality.py
+│   ├── recommendations.py
+│   └── career_paths.py
 ```
 
 Author
